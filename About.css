@@ -1,0 +1,62 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('va.jpg');
+    background-size: cover;
+    opacity: 0.6px;
+    background-color: rgb(72, 47, 72);
+}
+h1
+{
+    color: red;
+    font-size: 100px;
+    position: relative;
+    top: 150px;
+    left: 810px;
+}
+h3
+{
+    position: relative;
+    color: brown;
+    font-size: 50px;
+    left: 100px;
+}
+.anime h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid black;
+    border-radius: 15px; */
+    position: relative;
+    animation-name: data;
+    animation-duration: 3s;
+    color: white;
+    /* background-color: purple; */
+    /* animation-delay: 0s; */
+    animation-direction: reverse;
+    top: 25px;
+    left: 100px;
+    /* animation-iteration-count: infinite; */
+    width: 550px;
+}
+.image img
+{
+    position: relative;
+    left: 830px;
+    top: -320px;
+}
+@keyframes data
+{
+    0%
+    {
+        top: 85px;
+        left: 100px;
+    }
+    100%
+    {
+        top: 1000px;
+        left: 100px;
+    }
+}

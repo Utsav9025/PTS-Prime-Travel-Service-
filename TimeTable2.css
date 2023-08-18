@@ -1,0 +1,73 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.Box
+{
+    height : 200px;
+    width : 1500px;
+    /* background-color: black; */
+    border: 5px solid black;
+    /* border-radius: 100px; */
+    /* content: B; */
+    margin: 10px;
+}
+body h1{
+    text-align: center;
+}
+.Box img
+{
+    height: 200px;
+    /* opacity: 0.6; */
+}
+.Box h3
+{
+    position: relative;
+    top: -112px;
+    right: -500px;
+    font-size: 25px;
+}
+.Box h4
+{
+    position: relative;
+    right: -400px;
+    color: red;
+    top: -220px;
+}
+.Box h2
+{
+    position: relative;
+    right: -395px;
+    top: -214px;
+    font-size: 20px;
+}
+.Box p
+{
+    /* color: darkblue;
+    font-weight:bolder ; */
+    color: darkblue;
+    font-weight: bolder;
+    position: relative;
+    top: -120px;
+    right: -394px;
+}
+.Box h5
+{
+    position: relative;
+    right: -1130px;
+    top: -210px;
+    font-size: 30px;
+}
+.Box button
+{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    /* border-radius: 50% 50%; */
+    border: 2px solid black;
+    position: relative;
+    top: -280px;
+    right:-1350px;
+}

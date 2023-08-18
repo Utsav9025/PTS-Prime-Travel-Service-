@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bus.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .form {
+    max-width: 500px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+        label {
+        display: block;
+        margin-bottom: 10px;
+        }
+        input[type="text"],
+        select {
+        width: 80%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        font-weight: bold;
+        }
+        input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+        input[type="submit"]:hover {
+        background-color: #45a049;
+        }
+
+      select {
+      width: 200px;
+      padding: 0px;
+      font-size: 16px;
+      border: none;
+      background-color: #f1f1f1;
+      color: #333;
+}
+
+option {
+  font-size: 16px;
+}
+
+.formlogin{
+    
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+  background: #fff;
+
+    max-width :430px;
+    width: 100% ;
+    padding: 30px;
+    margin: center;
+    border-radius: 6px;
+   
+}
+.seats
+{
+  width: 70px;
+  margin: 10px;
+  padding: 3px;
+}
+select.Source
+{
+  margin: 10px;
+}
+#phone
+{
+  width: 200px;
+  font-weight: bold;
+}
+.btn
+{
+  width: 100px;
+  background-color: #0ce00c;
+  align-items: center;
+  padding: 9px;
+  margin-left: 257px;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-size: 20px;
+}
+.chalook{
+  position: absolute;
+  left: 30%;
+  top: 10%;
+ background-color: rgb(155, 165, 183);
+ border: 5px;
+ border-radius: 5%;
+ opacity: 0.6;
+}
+#booking-form h1
+{
+  text-align: center;
+  /* text-underline-position: above; */
+  color: midnightblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.Gen
+{
+  margin: 20px;
+  margin-left: 0px;
+}
+/* .Age
+{
+  width: 70px;
+} */
+.age
+{
+   padding: 3px;
+  margin-left: 14px;
+  width: 55px;
+}
